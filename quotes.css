@@ -1,0 +1,266 @@
+.baslik {
+    padding: 6px 10px 3px;
+    height: 15px;
+    font-weight: 700;
+    display: block; 
+    margin-bottom: 0px;
+	
+  }
+  .baslik, .renklibuton {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+	    font-size: 12px; 
+  }
+  .baslik, body {
+    font-size: 14px;
+  }
+  h2 {
+    font-weight: 300;
+  }
+  * {
+    margin: 0;
+  }
+  .alt {
+    width: 100%;
+    height: 3px;
+  }
+  * {
+    margin: 0;
+  }
+  *, body {
+    padding: 0;
+  }
+  #bosluk {
+    margin: 20px;
+  }
+  
+  
+  .thought-card {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e4e1dd;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.thought-card .thought-img {
+  width: 100%;
+}
+
+.thought-card .quote {
+  position: relative;
+  padding: 15px 20px 5px 35px;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  
+}
+
+.thought-card .autor {
+  display: inline-block;
+  width: 100%;
+  font-size: .75rem;
+  padding: 10px 30px 20px 35px;
+  color: #78726c;
+  line-height: 1.3;
+  margin-top: -10px;
+}
+
+.thought-card .author-name {
+  font-size: .875rem;
+}
+
+
+.total-shares {
+  position: relative;
+  display: inline-block;
+  color: #78726c;
+  padding: 14px 10px;
+  font-size: .75rem;
+}
+
+.icon-bar--user-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: auto;
+  right: 0;
+  z-index: 1;
+}
+
+.icon-user--btn {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+}
+
+.icon-user--btn.add i,
+.icon-user--btn.remove i {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  line-height: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #c2bbb3;
+}
+
+.icon-user--btn.add i.loading,
+.icon-user--btn.remove i.loading {
+  animation: spin 4s linear infinite;
+}
+
+.icon-user--btn a {
+  position: relative;
+  display: inline-block;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  color: #78726c;
+  font-size: .75rem;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+
+@media (min-width: 769px) {
+  .sg-social .sg-facebook-btn {
+    font-size: 22px;
+  }
+}
+
+.sg-social .sg-facebook-btn:hover {
+  color: #1877f2;
+}
+
+.sg-social .sg-twitter-btn {
+  font-size: 17px;
+}
+
+@media (min-width: 769px) {
+  .sg-social .sg-twitter-btn {
+    font-size: 11px;
+  }
+}
+
+.sg-social .sg-twitter-btn:hover {
+  background: #00abf0;
+}
+
+.sg-social .sg-pinterest-btn {
+  background: none;
+  color: #c2bbb3;
+  font-size: 32px;
+}
+
+@media (min-width: 769px) {
+  .sg-social .sg-pinterest-btn {
+    font-size: 22px;
+  }
+}
+
+.sg-social .sg-pinterest-btn:hover {
+  color: #e60019;
+  
+}
+
+.share-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  font-size: 0.79rem;
+  
+  
+}
+
+
+.share-wrapper.active .sg-whatsapp-btn {
+  background: #25d366;
+  
+  
+}
+
+.share-wrapper.active .sg-facebook-btn {
+  color: #1877f2;
+}
+
+.share-wrapper.active .sg-twitter-btn {
+  background: #00abf0;
+}
+
+
+
+
+
+
+/* Alıntı (Quote) ikonu */
+.quote.fr:before {
+  content: "\201C";
+  position: absolute;
+  color: #e1dbcf;
+  font-size: 2.25rem;
+  left: 10px;
+  top: 10px;
+}
+
+format("truetype")}@font-face{font-family:Barlow-fallback;size-adjust:96.70000000000002%;ascent-override:100%;src:local("Arial")}@font-face{font-family:pf;font-style:normal;font-weight:400;src:url(http://localhost/images/1.eot);src:url(http://localhost/images/1.eot) format("embedded-opentype"),url(http://localhost/images/1.woff2) format("woff2"),url(http://localhost/images/2.woff)  format("svg")}.about-copy:before,.add.add i.loading:before,.add.add i:before,.article-content .content-img .icon-fb:before,.footer-social-links .icon-ig:before,.footer-social-links .icon-pin:before,.footer-social-links .icon-yt:before,.header-menu-btn-wrapper .add-quote span:before,.icon-7graus:before,.icon-arrow-right:before,.icon-at:before,.icon-caret-down:before,.icon-check:before,.icon-close:before,.icon-collection:before,.icon-copy:before,.icon-desktop:before,.icon-dots:before,.icon-edit:before,.icon-facebook:before,.icon-feedback-happy:before,.icon-feedback-sad:before,.icon-heart-l:before,.icon-heart:before,.icon-house:before,.icon-image:before,.icon-info:before,.icon-instagram:before,.icon-label:before,.icon-locker:before,.icon-magnifier:before,.icon-mail:before,.icon-menu:before,.icon-pensador:before,.icon-plus-circle:before,.icon-plus:before,.icon-power:before,.icon-quote:before,.icon-report:before,.icon-settings:before,.icon-sg-social-facebook:before,.icon-sg-social-pinterest:before,.icon-sg-social-twitter:before,.icon-sg-social-whatsapp:before,.icon-share:before,.icon-spinner:before,.icon-user--btn.copy-btn.copied i:before,.icon-user--btn.dots i:before,.icon-user--btn.editar i:before,.icon-user--btn.image i.icon-spinner:before,.icon-user--btn.image i:before,.icon-user-caret-down:before,.icon-user-plus:before,.icon-user:before,.icon-verified:before,.icon-youtube:before,.input-wrap .placeholder-email:before,.input-wrap .placeholder-label:before,.input-wrap .placeholder-pass:before,.input-wrap .placeholder-quote:before,.input-wrap .placeholder-user:before,.newsletter-title span:before,.pensaReport span:before,.popup-collection .popup-close i:before,.popup .close:before,.remove.remove i.loading:before,.remove.remove i:before,.search-btn span:before,.sg-social .sg-facebook-btn span:before,.share-icon:before,.show-btns .share-icon:before,.sidebar .blog span.icon-desktop:before,.thought-card .quote:before,.user-menu .btn-login a span:before,.user-menu .user>span i:before,.warning.warning--green span:before,.yt-channel .yt-subscribe--button i:before,[class*=" icon-"],[class^=icon-],button.btn-facebook span:before,ul.dropped a.collection span:before,ul.dropped a.login span:before,ul.dropped a.logout span:before,ul.dropped a.settings span:before,ul.dropped a.signup span:before{font:normal normal normal 14px/1 pf;font-size:inherit;text-decoration:none;text-transform:none;line-height:inherit;display:block;vertical-align:middle;min-width:1em;text-rendering:auto;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-sg-social-facebook:before{content:"";display:block}.icon-sg-social-twitter:before{content:"";display:block}.icon-sg-social-whatsapp:before{content:"";display:block}.footer-social-links .icon-pin:before,.icon-sg-social-pinterest:before{content:"";display:block}.about-copy:before,.article-content blockquote:before,.icon-quote:before,.input-wrap .placeholder-quote:before,.thought-card .quote:before{content:"";display:block}.icon-image:before,.icon-user--btn.image i:before{content:"";display:block}.icon-magnifier:before,.search-btn span:before{content:"";display:block}.icon-menu:before{content:"";display:block}.icon-report:before,.pensaReport span:before{content:"";display:block}.icon-user-caret-down:before,.user-menu .user>span i:before{content:"";display:block}.icon-user:before,.input-wrap .placeholder-user:before,.user-menu .btn-login a span:before,ul.dropped a.login 
+ .sg-social>div:not(:first-of-type) {
+    margin-left: 10px;
+}
+.sg-social, .sg-social>div {
+    display: inline-block;
+    float: left;
+}
+
+@media (min-width: 769px)
+.sg-social .sg-facebook-btn {
+    font-size: 22px;
+}
+.sg-social .sg-facebook-btn {
+    background: none;
+    color: #c2bbb3;
+    font-size: 32px;
+}
+@media (min-width: 769px)
+.sg-social .sg-icon-only {
+    width: 22px;
+    height: 22px;
+}
+.sg-social .sg-icon-only {
+    border: 0;
+    border-radius: 36px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #c2bbb3;
+  
+}
+.sg-social button {
+    border: none;
+}
+.title-detail {
+    font-size: 1rem;
+    color: #403e3b;
+    margin: 15px 0 10px;
+    padding: 0;
+    line-height: 1.2;
+}
+.h1, h1 {
+    font-size: 1.9rem;
+    word-wrap: break-word;
+}
+.category-link {
+  color: #316fd3;
+  text-decoration: none;
+}
+
+.category-link:hover {
+  text-decoration: underline;
+}
+
+.phrase_image {
+  margin-bottom: 20px;
+}
